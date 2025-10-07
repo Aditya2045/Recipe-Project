@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import url('https://fonts.cdnfonts.com/css/stranger-2');
+
+@font-face{
+  font-family:"diya";
+  src:url("/PlayfairDisplay-Italic-VariableFont_wght.ttf")
+}
+
+html, body {
+    overflow-x: hidden;  /* horizontal band */
+  overflow-y: auto; 
+}
+
+
