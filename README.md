@@ -66,23 +66,8 @@ Recipe-Project/
 └── package.json
 ```
 
----
 
-## 📸 Screenshots  
-_Add a few screenshots or GIFs of your app UI here_  
-Example:
-```
-![Home Page](screenshots/home.png)
-![Recipe Page](screenshots/recipe.png)
-```
-
----
-
-## 💡 Future Enhancements  
-- 🔍 Search and filter recipes  
-- 👤 User authentication  
-- ☁️ Cloud-based storage for recipes  
-- ⭐ Favorite or bookmark recipes  
+ 
 
 ---
 
