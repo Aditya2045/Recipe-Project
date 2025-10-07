@@ -1,12 +1,68 @@
-# React + Vite
+https://recipe-maker-delta.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🍳 Recipe Project
+A simple and elegant Recipe Management App built with React.js and Tailwind CSS, where users can create, view, update, and delete recipes easily.
 
-Currently, two official plugins are available:
+🌟 Features
+📖 Add, edit, and delete recipes
+🖼️ Upload or link recipe images
+🧂 Add ingredients, instructions, and categories
+💾 Data persistence with LocalStorage
+⚡ Fully responsive design (mobile & desktop)
+🎨 Clean and modern UI
+🧰 Tech Stack
+React.js (frontend framework)
+Tailwind CSS (styling)
+React Router DOM (navigation)
+React Hook Form (form handling)
+React Toastify (notifications)
+nanoid (unique IDs)
+🚀 Getting Started
+1️⃣ Clone the repository
+git clone https://github.com/Aditya2045/Recipe-Project.git
+​
+2️⃣ Install dependencies
+npm install
+​
+3️⃣ Start the development server
+npm run dev
+​
+Open http://localhost:5173 to view it in your browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+📂 Folder Structure
+Recipe-Project/
+│
+├── src/
+│   ├── components/
+│   │   └──RecipeCard.jsx
+|   |   └── RecipeCard.jsx
+│   ├── context/
+│   │   └── Recipecontext.jsx
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Recipes.jsx
+│   │   ├── Singlerecipe.jsx
+│   │   └── Createrecipes.jsx
+│   ├── utils/
+│   │   └── Axios.js
+│   └── App.jsx
+│
+└── package.json
+​
+📸 Screenshots
+Add a few screenshots or GIFs of your app UI here
+Example:
 
-## Expanding the ESLint configuration
+![Home Page](screenshots/home.png)
+![Recipe Page](screenshots/recipe.png)
+​
+💡 Future Enhancements
+🔍 Search and filter recipes
+👤 User authentication
+☁️ Cloud-based storage for recipes
+⭐ Favorite or bookmark recipes
+🧑‍💻 Author
+Aditya Sharma
+GitHub Profile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
